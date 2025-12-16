@@ -30,7 +30,7 @@ For other platforms, visit: https://gazebosim.org/docs/harmonic/install
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url> gz-scene
+git clone http://gitlab.s/chungnt.s/gz-scene.git gz-scene
 cd gz-scene
 ```
 
