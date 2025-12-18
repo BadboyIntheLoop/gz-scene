@@ -40,6 +40,8 @@ Copy the `vrc_driving_terrain` model to your Gazebo models directory:
 
 ```bash
 cp -r vrc_driving_terrain ~/.gz/models/
+cp -r oak_tree ~/.gz/models/
+cp -r pine_tree ~/.gz/models/
 ```
 
 ### 3. Verify Installation
@@ -48,6 +50,8 @@ Check that the model has been copied successfully:
 
 ```bash
 ls ~/.gz/models/vrc_driving_terrain
+ls ~/.gz/models/oak_tree
+ls ~/.gz/models/pine_tree
 ```
 
 ## Usage
