@@ -50,6 +50,16 @@ Check that the models have been copied successfully:
 ls ~/.gz/models/
 ```
 
+## Updated Models
+
+### baylands
+This local version replaces the Ogre 1.x scripts with ogre2-compatible PBR materials (`<pbr><metal><albedo_map>`), while keeping the mesh files referenced from Gazebo Fuel. To update the baylands model in your Gazebo Fuel cache:
+
+```bash
+cp baylands/model.sdf ~/.gz/fuel/fuel.gazebosim.org/openrobotics/models/baylands/3/model.sdf
+cp baylands/model.config ~/.gz/fuel/fuel.gazebosim.org/openrobotics/models/baylands/3/model.config
+```
+
 ## Usage
 
-Once installed, the `vrc_driving_terrain` model can be referenced in your Gazebo world files or spawned dynamically in your simulations.
+Once installed, the models can be referenced in your Gazebo world files or spawned dynamically in your simulations.

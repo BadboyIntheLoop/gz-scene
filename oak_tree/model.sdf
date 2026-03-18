@@ -20,6 +20,7 @@
           </mesh>
         </geometry>
         <material>
+          <diffuse>1 1 1 1</diffuse>
           <pbr>
             <metal>
               <albedo_map>model://oak_tree/materials/textures/branch_diffuse.png</albedo_map>
@@ -37,6 +38,7 @@
           </mesh>
         </geometry>
         <material>
+          <diffuse>1 1 1 1</diffuse>
           <pbr>
             <metal>
               <albedo_map>model://oak_tree/materials/textures/bark_diffuse.png</albedo_map>
